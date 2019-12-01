@@ -1,51 +1,21 @@
-# 中国科学技术大学学位论文LyX模板 #
+# 自用西北农林科技大学LyX模板 #
 
-[![Travis build](https://travis-ci.org/jmcui/USTC-Lyx.svg?branch=master)](https://travis-ci.org/jmcui/USTC-Lyx)
-[![Github downloads](https://img.shields.io/github/downloads/jmcui/USTC-Lyx/total.svg)](https://github.com/jmcui/USTC-Lyx/releases)
-[![GitHub release](https://img.shields.io/github/release/jmcui/USTC-Lyx/all.svg)](https://github.com/jmcui/USTC-Lyx/releases/latest)
-[![GitHub commits](https://img.shields.io/github/commits-since/jmcui/USTC-Lyx/latest.svg)](https://github.com/jmcui/USTC-Lyx/commits/master)
 
 
 ## 目的 ##
 
-中国科学技术大学学位论文LyX模板，方便USTCer编辑学位论文。
+西北农林科技大学博士论文LyX模板，方便西农博士研究生编辑学位论文。
 
-* 底层了调用[ustcthesis latex模板](https://github.com/ustctug/ustcthesis)，目前包含博士、硕士、学士模版。
+* 底层了调用[ustcthesis latex模板](https://github.com/ustctug/ustcthesis)，目前只支持博士论文。
 * 包含了各种环境、格式实例，根据需求，直接在Lyx中复制粘贴即可。
 
 ## 下载 ##
 
-* 下载最新发布版本，压缩文件 https://github.com/ustctug/ustclyx/releases , 解压即可使用。
+* 下载最新发布版本，压缩文件 https://github.com/satan2011/nwafulyx/releases , 解压即可使用。
 
 * 此外，还可以使用git克隆项目，从而下载最新版，或者参与项目开发。
 
-  Note: 本项目使用了ustcthesis项目，作为一个git子模块。因此，注意使用git clone --recursive，下载所有文件，模版才能直接使用。否则需要用[ustcthesis项目](https://github.com/ustctug/ustcthesis)中的文件替换相应的文件链接。
-
-  ````bash
-  # linux或Mac系统
-  git clone --recursive https://github.com/ustctug/ustclyx.git
-  ````
-
-  ````bash
-  # windows 系统用 -c core.symlinks=true 选项， 保证链接正确
-  git clone -c core.symlinks=true  --recursive https://github.com/ustctug/ustclyx.git
-  ````
-
-  或者从中国科大Lug服务器上git下来
-
-  ```bash
-  # linux或Mac系统
-  git clone --recursive https://git.lug.ustc.edu.cn/jmcui/ustclyx.git
-  ```
-  ````bash
-  # windows 系统用 -c core.symlinks=true 选项， 保证链接正确
-  git clone -c core.symlinks=true  --recursive https://github.com/jmcui/USTC-Lyx.git
-  ````
-
   
-
-  Note: 不要使用github 网页上code中“Clone or download” 按钮下载。这样方法不能下载子项目，导致文件缺失。
-
 ## 使用 ##
 
 * 下载安装 Texlive， 参考 [ustcthesis 新手指南](https://github.com/ustctug/ustcthesis/wiki/新手指南)。
@@ -69,8 +39,7 @@
   打开Main.lyx文档，菜单 文档->首选项->文档类->文档类选项。填写文档类选项，默认为doctor。
 
   * doctor	  博士模版
-  * master     硕士模版
-  * bachelor  学士模版
+
 
 * 编译：
 
