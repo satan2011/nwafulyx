@@ -1,0 +1,551 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\end_preamble
+\options doctor
+\use_default_options false
+\master ../Main.lyx
+\maintain_unincluded_children false
+\begin_local_layout
+#####################Keywords
+InsetLayout Flex:eKeywords
+LyXType element
+LabelString 	"　Keywords:"
+LatexType       Command
+LatexName       enkeywords
+Decoration 	   Classic
+Font
+   Series 	Bold
+EndFont
+LabelFont
+  Shape         Up
+  Color         blue
+EndFont
+End
+
+InsetLayout Flex:Keywords
+  CopyStyle		Flex:eKeywords
+  LabelString 	"　关键词:"
+  LatexType            	 Command
+  LatexName            	 keywords
+End
+
+Style notationlist
+	Category              List
+	Margin                First_Dynamic
+	LatexType             Item_environment
+	LatexName             notationlist
+	NextNoIndent          1
+	LeftMargin            MM
+	LabelSep              xxx
+	ParSkip               0.4
+	ItemSep               0.2
+	TopSep                0.7
+	BottomSep             0.7
+	ParSep                0.3
+	Align                 Block
+	AlignPossible         Block, Left
+	LabelType             Manual
+	LabelFont
+	  Series              Bold
+	EndFont
+	HTMLTag               dl
+	HTMLAttr              class='description'
+	HTMLItem              dd
+	HTMLLabel             dt
+	HTMLLabelFirst        1
+	HTMLStyle
+		dl.description dt { font-weight: bold; }
+	EndHTMLStyle
+End
+
+
+Style 符号说明
+	Margin                Static
+	LatexType             Environment
+	LatexName             notation
+	Category              FrontMatter
+	NextNoIndent          1
+	ToggleIndent          Always
+	LeftMargin            MMM
+	RightMargin           MMM
+	ParIndent             MM
+	ItemSep               0
+	TopSep                0.7
+	BottomSep             0.7
+	ParSep                0
+	Align                 Block
+	LabelType             Centered
+	LabelString           "符号说明"
+	LabelBottomSep        0.5
+	Font
+	  Size                Small
+	EndFont
+	LabelFont
+	  Series              Bold
+	  Size                Large
+	EndFont
+	HTMLLabelFirst        1
+	HTMLForceCSS          1
+	HTMLStyle
+		div.abstract {
+			margin: 4ex;
+		}
+		div.abstract_item {
+			font-size: small;
+			padding-top: 1ex;
+		}
+		div.abstract_label {
+			font-weight: bold;
+		}
+	EndHTMLStyle
+End
+
+
+#######
+NoStyle	Chapter
+NoStyle	Chapter*
+NoStyle	Section
+NoStyle	Section*
+NoStyle	Subsection
+NoStyle	Subsection*
+NoStyle	Subsubsection
+NoStyle	Subsubsection*
+NoStyle	Paragraph
+NoStyle	Paragraph*
+NoStyle	Subparagraph
+NoStyle	Subparagraph*
+NoStyle	Thanks
+NoStyle	Bibliography
+NoStyle	ChapterSpecial
+\end_local_layout
+\language chinese-simplified
+\language_package babel
+\inputencoding gbk
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\font_cjk fs
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 0
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout FrontMatter
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+Latex与Lyx
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Flex Keywords
+status open
+
+\begin_layout Plain Layout
+Latex；Lyx；模版；
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnglishAbstract
+Latex with Lyx
+\end_layout
+
+\begin_layout EnglishAbstract
+\begin_inset Flex eKeywords
+status open
+
+\begin_layout Plain Layout
+Latex Lyx;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{表
+\backslash
+hspace{1em}格}%加入目录
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{插
+\backslash
+hspace{1em}图}%加入目录
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset FloatList algorithm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{算
+\backslash
+hspace{1em}法}%加入目录
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+生成目录，表格，图像，算法列表
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+符号对照表
+\end_layout
+
+\begin_layout Plain Layout
+这是一个扉页添加特殊页面的例子
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+chapter{符号说明}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HPC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+高性能计算 (High Performance Computing)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CLS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+集群
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $E$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+能量
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\ensuremath{{\displaystyle \sum_{i=1}^{n}a_{i}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The sum of 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\ensuremath{{\displaystyle m}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The mass of one angel
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
